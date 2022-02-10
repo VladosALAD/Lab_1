@@ -16,6 +16,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="24hWd7JyVxmQRtyKGReTNJFTbeS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/Lab_1.iml" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Docker" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -55,7 +57,7 @@
       <workItem from="1644083384284" duration="1407000" />
       <workItem from="1644087975315" duration="1115000" />
       <workItem from="1644089142257" duration="6015000" />
-      <workItem from="1644531858430" duration="1630000" />
+      <workItem from="1644531858430" duration="2006000" />
     </task>
     <servers />
   </component>
