@@ -58,3 +58,9 @@ $SUM = 0;
 foreach($arr as $item)
     $SUM += $item**2;
 echo sqrt($SUM) . "<br>";
+echo round(sqrt(379),0) . " ";
+echo round(sqrt(379),1) . " ";
+echo round(sqrt(379),2) . "<br>";
+$arr2 = array(
+    "floor" => floor(sqrt(587)),
+    "ceil" => ceil(sqrt(587)));
