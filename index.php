@@ -184,3 +184,17 @@ function arrayFill($Symbol,$var)
     }
     return $temp;
 }
+
+$hardArray = array(
+    array(1,2,3),
+    array(4,5),
+    array(6)
+);
+function SumCounter(array $array){
+    $Sum = array_sum($array);
+    foreach($array as $child) {
+        if (is_array($child))
+            $Sum += SumCounter($child);
+    }
+    return $Sum;
+}
