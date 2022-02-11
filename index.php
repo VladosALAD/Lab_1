@@ -204,3 +204,6 @@ for($i = 0; $i < 3; $i++){
         $Array3X3[$i][$j] = $i +3*$j +1;
     }
 }
+$array2539 = array (2, 5, 3, 9);
+$result = $array2539[0]*$array2539[1]+$array2539[2]*$array2539[3];
+echo "<br>" . $result . "<br>";
