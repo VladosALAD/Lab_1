@@ -214,3 +214,11 @@ $user = array(
 );
 foreach ($user as $str)
     echo $str . " ";
+$date = array(
+    "day" => 11,
+    "month" => 2,
+    "year" => 2022
+);
+echo $date["'year'"] . "-";
+echo $date["'month'"] . "-";
+echo $date["'day'"];
