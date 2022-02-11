@@ -175,3 +175,12 @@ for($i=1;$i<5;$i++)
     array_push($arrXxX,$XxX);
     echo $arr[$i] . "<br>";
 }
+function arrayFill($Symbol,$var)
+{
+    $temp = array();
+    for ($i = 0;$i < $var; $i++)
+    {
+        array_push($retArr,$Symbol);
+    }
+    return $temp;
+}
