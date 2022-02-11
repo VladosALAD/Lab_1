@@ -165,3 +165,13 @@ function NumSum($num,$sum=0)
         NumSum($sum);
     else return;
 }
+
+//Task 17
+$XxX = "";
+$arrXxX = array();
+for($i=1;$i<5;$i++)
+{
+    $XxX = $XxX . "x";
+    array_push($arrXxX,$XxX);
+    echo $arr[$i] . "<br>";
+}
