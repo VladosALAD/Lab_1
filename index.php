@@ -85,3 +85,19 @@ for($i = 0;$i<10;$i++) {
 for($i = 0;$i<10;$i++) {
     echo "$arr4[$i] ";
 }
+
+for($i = 0; $i < 7;$i++)
+{
+    $a=rand(-100,100);
+    $b=rand(-100,100);
+    echo "<br>a-b=$a-$b=|" . ($a-$b) . "|=" . abs($a-$b);
+}
+$arr5 = array();
+for($i = 0;$i<10;$i++) {
+    array_push($arr5, rand(-40, 20));
+}
+foreach ($arr5 as &$item) {
+    echo $item . " ";
+    if($item < 0)
+        $item = abs($item);
+}
