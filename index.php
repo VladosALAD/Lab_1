@@ -119,3 +119,11 @@ while ($SuM < 10){
     $SuM += $arrayOneToTen[$cntr];
     $cntr ++;
 }
+
+//Task 15
+function printStringReturnNumber()
+{
+    echo "<br>Hello World v2.0";
+    return 101;
+}
+echo "<br>" . $my_num = printStringReturnNumber();
