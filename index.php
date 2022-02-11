@@ -274,8 +274,15 @@ function ArMean (array $arr , $num = 0, $Sum = 0){
     if($num == count($arr) - 1)
         echo ($Sum+$arr[$num])/$num;
 }
-ArMean (Mas);
+//ArMean (Mas);
 
+function fromONEtoHUNDRED($num = 1, $sum = 1){
+    if($num < 100)
+        fromONEtoHUNDRED(num+1, $sum+$num);
+    if($num == 100)
+        echo $sum + $num;
+}
+fromONEtoHUNDRED();
 //----------------------------\\
 //          /\                \\
 //         //                 \\
