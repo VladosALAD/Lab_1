@@ -127,3 +127,41 @@ function printStringReturnNumber()
     return 101;
 }
 echo "<br>" . $my_num = printStringReturnNumber();
+
+//Task 16
+function increaseEnthusiasm($s = "null")
+{
+    return $s . "!";
+}
+echo "<br>" . increaseEnthusiasm("Hello World?");
+function repeatThreeTimes($s = "null")
+{
+    return $s . $s . $s;
+}
+echo "<br>" . repeatThreeTimes("Hello World? ");
+echo "<br>" . increaseEnthusiasm(repeatThreeTimes("Help me pls "));
+function cut($s = "null", $charsFromStart = 10)
+{
+    return substr($s,0,$charsFromStart);
+}
+//echo "<br>" . cut(increaseEnthusiasm(repeatThreeTimes("Help me pls ")), 5);
+function ArrayTask($arr,$endIter,$nowIter = 0)
+{
+    echo $arr[$nowIter] . " ";
+    if ($nowIter < $endIter){
+        ArrayTask($arr, $endIter, ++$nowIter);
+    }else
+        return;
+}
+function NumSum($num,$sum=0)
+{
+    while ($num > 0)
+    {
+        $sum+=$num%10;
+        $num/=10;
+    }
+    echo "$sum ";
+    if ($sum>9)
+        NumSum($sum);
+    else return;
+}
