@@ -266,6 +266,16 @@ for($i=0;$i<20;$i++)
 }
 
 //Task 20
+
+$Mas = array(1, 50, 67, 9, 45);
+function ArMean (array $arr , $num = 0, $Sum = 0){
+    if($num < count($arr) - 1)
+        ArMean($arr, $num+1, $Sum+$arr[$num]);
+    if($num == count($arr) - 1)
+        echo ($Sum+$arr[$num])/$num;
+}
+ArMean (Mas);
+
 //----------------------------\\
 //          /\                \\
 //         //                 \\
