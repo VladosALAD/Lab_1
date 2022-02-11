@@ -291,6 +291,15 @@ function MASsqrt (array &$mass, $num = 0){
         MASsqrt($mass, num+1);
     }
 }
+$alphabet = array ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
+$Newalpabet = array();
+function NewAlphabetCreate(array &$Newalp, array $alp, $num){
+    if($num<26){
+        $Newalp["'alp[$num]'"] = $num + 1;
+        NewAlphabetCreate($Newalp, $alp, num+1);
+    }
+}
+
 //----------------------------\\
 //          /\                \\
 //         //                 \\
