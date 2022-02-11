@@ -249,3 +249,11 @@ function F3 ($var1){
             echo "Sum > 10";
     }
 }
+//Task 19
+$xxxLine="";
+echo "<br>";
+for($i=0;$i<20;$i++)
+{
+    $xxxLine .= "x";
+    echo "$xxxLine<br>";
+}
