@@ -222,3 +222,6 @@ $date = array(
 echo $date["'year'"] . "-";
 echo $date["'month'"] . "-";
 echo $date["'day'"];
+$TaskArray = array('a','b','c','d','e');
+echo"<br>" . count($TaskArray);
+echo"<br>" . $TaskArray[count($TaskArray)-1] . " " . $TaskArray[count($TaskArray)-2];
