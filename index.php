@@ -101,3 +101,21 @@ foreach ($arr5 as &$item) {
     if($item < 0)
         $item = abs($item);
 }
+
+$choose = rand(1,100);
+echo "<br>Number is  - $choose<br>";
+$Divisors = array();
+for($i = 1;$i <= $choose;$i++)
+{
+    if($choose % $i == 0){
+        array_push($Divisors, $i);
+        echo $i . " ";
+    }
+}
+$arrayOneToTen = array( 1,2,3,4,5,6,7,8,9,10 );
+$cntr = 0;
+$SuM = 0;
+while ($SuM < 10){
+    $SuM += $arrayOneToTen[$cntr];
+    $cntr ++;
+}
