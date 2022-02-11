@@ -283,6 +283,14 @@ function fromONEtoHUNDRED($num = 1, $sum = 1){
         echo $sum + $num;
 }
 fromONEtoHUNDRED();
+
+function MASsqrt (array &$mass, $num = 0){
+    if($num < count($mass)){
+        $mass[$num] = sqrt($mass[$num]);
+        echo $mass[num] ." ";
+        MASsqrt($mass, num+1);
+    }
+}
 //----------------------------\\
 //          /\                \\
 //         //                 \\
