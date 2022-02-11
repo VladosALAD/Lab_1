@@ -225,3 +225,27 @@ echo $date["'day'"];
 $TaskArray = array('a','b','c','d','e');
 echo"<br>" . count($TaskArray);
 echo"<br>" . $TaskArray[count($TaskArray)-1] . " " . $TaskArray[count($TaskArray)-2];
+
+//Task 18
+function F1($var1, $var2){
+    $sum = $var1 + $var2;
+    if ($sum>10)
+        return true;
+    else return false;
+}
+function F2($var1, $var2){
+    if ($var1 == $var2)
+        return true;
+    else return false;
+}
+function F3 ($var1){
+    if($var1 < 10 || $var1 > 99)
+        echo "Out of diaposon";
+    else{
+        $Sum = $var1 %10 + (($var1 - $var1 %10)/10);
+        if($Sum<10)
+            echo "Sum < 10";
+        else
+            echo "Sum > 10";
+    }
+}
